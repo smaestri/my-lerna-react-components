@@ -6,5 +6,6 @@
     "build": "tsc && vite build"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "gitHead": "ca4468d1284522281acac796de7b8436ff638837"
 }
