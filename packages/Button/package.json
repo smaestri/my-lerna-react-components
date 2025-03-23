@@ -1,5 +1,5 @@
 {
-  "name": "button",
+  "name": "my-lerna-button",
   "version": "0.5.0",
   "description": "",
   "scripts": {
@@ -7,5 +7,5 @@
   },
   "author": "",
   "license": "ISC",
-  "gitHead": "2f878bf780b19bd2c8df54d9a3c2160033278caf"
+  "gitHead": "6a05314759f415041294bbf9243348daa469f3dd"
 }
