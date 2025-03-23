@@ -1,5 +1,5 @@
 {
-  "name": "my-shared-react-components",
+  "name": "my-lerna-react-components",
   "version": "0.0.0",
   "private": "true",
   "scripts": {
