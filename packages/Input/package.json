@@ -1,5 +1,5 @@
 {
-  "name": "my-lerna-button",
+  "name": "my-lerna-input",
   "version": "0.7.0",
   "description": "",
   "main": "dist/index.js",
