@@ -2,10 +2,18 @@
   "name": "my-lerna-button",
   "version": "0.11.0",
   "description": "",
-  "main": "dist/button.umd.js",
+  "type": "module",
   "files": [
     "dist"
   ],
+  "main": "dist/button.umd.js",
+  "module": "./dist/button.js",
+  "exports": {
+    ".": {
+      "import": "./dist/button.js",
+      "require": "./dist/button.umd.cjs"
+    }
+  },
   "scripts": {
     "build": "tsc && vite build"
   },

@@ -2,10 +2,18 @@
   "name": "my-lerna-input",
   "version": "0.11.0",
   "description": "",
-  "main": "dist/input.umd.js",
+  "type": "module",
   "files": [
     "dist"
   ],
+  "main": "dist/input.umd.js",
+  "module": "./dist/input.js",
+  "exports": {
+    ".": {
+      "import": "./dist/input.js",
+      "require": "./dist/input.umd.cjs"
+    }
+  },
   "scripts": {
     "build": "tsc && vite build"
   },
