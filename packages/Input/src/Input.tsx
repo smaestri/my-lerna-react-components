@@ -1,6 +1,6 @@
 export const Input = () => {
     return (
-        <>test-sma2:
+        <>test-sma3:
             <input
                 type="text"
             >
