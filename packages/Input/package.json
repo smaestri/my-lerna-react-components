@@ -2,7 +2,7 @@
   "name": "my-lerna-input",
   "version": "0.9.0",
   "description": "",
-  "main": "dist/index.js",
+  "main": "dist/input.umd.js",
   "files": [
     "dist"
   ],
